@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Login Activity</string>
+    <string name="header_text_main">Please enter your username and password below to login:</string>
+    <string name="username_hint">Enter your username:</string>
+    <string name="password_hint">Enter your password:</string>
+    <string name="login_button_text">Login</string>
+</resources>
