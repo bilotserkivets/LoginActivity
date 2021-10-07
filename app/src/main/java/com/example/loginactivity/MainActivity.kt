@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         }
         binding.apply {
             loginButton.setOnClickListener {
-                if (editUsername.text.isNotEmpty() || editPassword.text.isNotEmpty()) {
+                if (editUsername.text.isNotEmpty() && editPassword.text.isNotEmpty()) {
                     val userName = editUsername.text.toString().trim()
                     launcher?.launch(Intent(this@MainActivity,
                         ResultActivity::class.java).putExtra(USER_NAME, userName))
